@@ -42,6 +42,6 @@ include_directories(
 add_library(mil_tools
   src/mil_tools/mil_tools.cpp
 )
-target_include_directories(mil_tools PUBLIC include ${EIGEN3_INCLUDE_DIRS})
+target_include_directories(mil_tools PUBLIC include ${EIGEN_INCLUDE_DIRS})
 target_link_libraries(mil_tools ${catkin_LIBRARIES} ${Boost_LIBRARIES})
 
